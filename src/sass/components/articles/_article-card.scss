@@ -5,7 +5,7 @@
   margin-bottom: 20px;
   height: 400px;
   background-color: var(--background-color);
-  border-radius: 5px;
+  border-radius: 1px;
   border: 1px solid var(--secondary-border-color);
   z-index: 1;
   @include transition(all .25s cubic-bezier(.02,.01,.47,1));
@@ -81,7 +81,7 @@
     right: 10px;
     bottom: 0;
     left: 10px;
-    border-radius: 5px;
+    border-radius: 2px;
     @include bs(var(--article-shadow-normal));
     @include transition(all .25s cubic-bezier(.02,.01,.47,1));
   }
@@ -90,7 +90,7 @@
 .m-article-card__picture {
   position: relative;
   height: 200px;
-  border-radius: 5px 5px 0 0;
+  border-radius: 1px 1px 0 0;
   background-color: var(--secondary-subtle-color);
   overflow: hidden;
   @include transform(translateZ(0));
